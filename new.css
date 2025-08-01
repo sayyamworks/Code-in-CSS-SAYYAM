@@ -1,0 +1,25 @@
+/* Change background color and text style */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style headings */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Style a button */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
