@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+    First CSS Practise.
+    </title>
+    <!-- Internal CSS Styling -->
+    <style> 
+       *{
+            font-family:'Times New Roman', Times, serif;
+        }
+        h1{
+            color:rgb(255, 0, 0)
+        }
+        #firstDiv{
+            font-style: italic;
+            color: blue;
+        }
+        #head{
+            color:blueviolet;
+        }
+        #para{
+            color:rgb(0, 28, 80);
+        }
+        .div{
+            font-size: larger;
+        }
+        h1, #firstDiv, .div{
+            background-color: rgb(86, 231, 200);
+        }
+        #firstDiv p{
+            padding-top: 25px;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="Level_1_CSS_Stylesheet.css">
+    </head>
+    <body>
+        <div id="firstDiv" class="div">
+        <h1><!--style="color:rgb(119, 0, 255)"-->This is Color Property</h1> <!--inline CSS--> 
+        <p><!--style="color: rgb(255, 72, 0);"--> <!-- inline CSS -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nobis fugiat quod a explicabo! Reprehenderit vitae odio quam earum modi! Ipsam amet asperiores, molestiae vitae unde labore quae alias quo!
+        </p>
+        </div>
+        <div id="secondDiv" class="div">
+        <!--For Id And Class-->
+        <h1 id="head">ID</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a itaque eius illum at, doloribus dolores fuga dicta voluptatum earum.</p>
+        </div>
+    </body>
+</html>
