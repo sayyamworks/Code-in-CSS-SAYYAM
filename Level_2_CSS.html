@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Level 2 CSS Practise
+        </title>
+        <style>
+            h1{
+                color:blue;
+                background-color:bisque;
+            }
+            #five{
+                background-color:aqua;
+            }
+            .Box{
+                height: 50px;
+                width: 50px;
+            }
+            #bkimg{
+                height: 250px;
+                width: 250px;
+                /*
+                background-image: url(SSG.png);
+                background-size: cover;
+                background-repeat: no-repeat; 
+                */
+                background:blueviolet url(SSG.png) no-repeat center;
+                background-size: cover;
+            } 
+            #vis h1{
+                color: brown;
+            }
+            .box{
+                height: 50px;
+                width: 50px;
+            }
+            #box1{
+                background-color: rgb(217, 255, 0);
+                visibility:visible;
+            }
+            #box2{
+                background-color: rgb(0, 247, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Background Color</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos recusandae et doloremque odio perferendis omnis!</p>
+        </div>
+        <div id="sec_div">
+            <p id="one" style="color:rgb(255,0,0); ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eveniet?</p>
+            <p id="two" style="color:rgb(0,255,0); ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eveniet?</p>
+            <p id="three" style="color:rgb(0,0,255); ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eveniet?
+            </p>
+            <p id="four" style="color:rgb(12,20,69);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eveniet?</p>
+            <p id="five" style="color:rgba(12,20,69,0.57);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eveniet?</p>
+        </div class="Box">
+        <div id=" Box 1" class="Box" style="background-Color:Red;">   BOX 1 </div> <br>
+        <div id=" Box 2" class="Box" style="background-Color:Blue;">  BOX 2 </div> <br>
+        <div id=" Box 3" class="Box" style="background-Color:Green;"> BOX 3 </div>
+        </div>
+        <br>
+        <div id="bkimg"></div> <br>
+        <div id="vis">
+            <h1>Visibility</h1>
+            <div id="box1" class="box">BOX 1</div>
+            <br>
+            <div id="box2" class="box">BOX 2</div>
+        </div>
+    </body>
+</html>
