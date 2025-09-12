@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Box Model</Title>
+    </head>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .div{
+            background-color: azure;
+            border: 5px dashed rgb(0, 0, 133);
+            padding:10px;
+            margin:15px;
+            box-sizing:border-box;
+        }
+        #h1{
+            color:rgb(180, 57, 57);
+            font-family:sans-serif;
+            font-size: 20px;
+        }
+        #h2{
+            color:rgb(133, 34, 34);
+            font-family:sans-serif;
+            font-size: 20px;
+        }
+        #div1_p{
+            font-family:monospace;
+            color:rgb(105, 1, 1);
+        }
+        #div2_p{
+            font-family:monospace;
+            color:rgb(31, 0, 0);
+        }
+        #div3{
+            height:70px;
+            width: 100px;
+            text-align: center;
+            font-size:50px;
+            font-weight: 900;
+            font-family:monospace;
+            color:rgb(31, 0, 0);
+            background-color: rgb(208, 255, 239);
+            border:5px solid rgb(0,255,0);
+            border-radius: 30px 30px 8px 30px;
+            box-sizing:border-box;
+            cursor: pointer;
+        }
+    </style>
+    <body>
+        <header>
+            Home <br> Contact-US <br> About
+        </header>
+        <br><hr>
+        <main>
+            <div id="div1" class="div">
+            <h2 id="h1">Padding Margin & Border Property</h2>
+            <p id="div1_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus expedita consequuntur distinctio culpa vero autem deserunt asperiores harum, rem laboriosam.</p>
+            </div>
+            <br>
+             <div id="div2" class="div">
+            <h2 id="h2">Padding Margin & Border Property</h2>
+            <p id="div2_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus expedita consequuntur distinctio culpa vero autem deserunt asperiores harum, rem laboriosam.</p>
+            </div>
+            <br>
+            <div id="div3">
+                Box 
+            </div>
+        </main>
+        <br><hr><br>
+        <footer>
+            Sardar Sayyam Ijaz <br>
+            sayyamijaz2002@gmail.com
+        </footer>
+    </body>
+</html>
