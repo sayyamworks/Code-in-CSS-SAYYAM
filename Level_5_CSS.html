@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Display And Position
+    </title>
+    <style>
+        header , footer{
+            color:rgb(83,2,2);
+            background-color: rgb(238, 225, 250);
+        }
+        #div1{
+            background-color: rgb(214, 239, 248);
+            color: rgb(83, 2, 2);
+        }
+        #div2{
+            background-color: rgb(214, 239, 248);
+            color: rgb(83, 2, 2);
+        }
+        .divB{
+            font-family:Trebuchet MS;
+            font-size: x-large;
+            text-align: center;
+            height:80px;
+            width:80px;
+            margin:25px;
+            padding:5px;
+            color: blue;
+            background-color: rgb(141, 236, 206);
+            border: solid 5px;
+            border-radius:10px;
+            /* display: block; */
+            /* display: inline; */
+            /* display: none;  */
+            display: inline-block;
+        }
+        #divB11{
+            font-family:Trebuchet MS;
+            font-size: 25px;
+            text-align: center;
+            height:50vh;
+            width:50vw;
+            /* margin:25px;
+            padding:5px; */
+            color: rgb(255, 0, 0);
+            background-color: rgb(243, 167, 137);
+            border: solid 5px;
+            border-radius:10px;
+        }
+        #divB22{
+            font-family:Trebuchet MS;
+            font-size: 0.8em;
+            text-align: center;
+            height:50%;
+            width:50%;
+            margin:25px;
+            padding:5px;
+            color: rgb(21, 121, 1);
+            background-color: rgb(180, 231, 113);
+            border: solid 5px;
+            border-radius:10px;
+        }
+        #h2second{
+            font-size: 30px;
+        }
+        .PSdiv{
+            height:80px;
+            width:80px;
+            border: black solid;
+            margin:5px;
+            text-align: center;
+            background-color: rgb(240, 192, 175);
+            color:rgb(56, 0, 0);
+        }
+        #div3{
+            position:relative;
+        }
+        #PSdiv1{
+            position: static;/*By Default*/
+        }
+        #PSdiv2{
+            position: relative;
+            left:20px;
+        }
+        #PSdiv3{
+            position: absolute;
+            left:150px;
+            bottom:10px;
+        }
+        #PSdiv4{
+            position:fixed;
+            top:50px;
+            /* right:20px; */
+        }
+        .Zdiv{
+            height:80px;
+            width:80px;
+            text-align: center;
+            position:relative;
+        }
+        #Zdiv1{
+            background-color: rgb(250, 212, 0);
+            color:rgb(61, 0, 0);
+            border: rgb(0, 68, 53) solid;
+            z-index:1;
+            left:10px;
+            top:5px;
+        }
+        #Zdiv2{
+            background-color: rgb(247, 137, 197);
+            color:rgb(63, 0, 35);
+            border: rgb(255, 0, 0) solid;
+            z-index:2;
+            bottom:60px;
+            left:30px;
+        }
+    </style>  
+</head>
+<body>
+    <header>
+        Home<br>
+        Contact Us<br>
+        About<hr><br>
+    </header>
+    <main>
+        <div id="div1" class="div">
+            <h2 id="h2first"><u>Display Property <i>(Block & Inline)</i></u></h2>
+            <div id="divB1" class="divB">Box 1</div>
+            <div id="divB2" class="divB">Box 2</div>
+            <div id="divB3" class="divB">Box 3</div>
+        </div>
+        <div id="div2" class="div">
+            <h2 id="h2second"><u>Relative Units</u></h2>
+            <div id="divB11" class="divB2">
+                Box 1
+                <div id="divB22" class="divB2">Box 2</div>
+            </div>
+        </div>
+        <div id="div3" class="div">
+            <h2 id="h2third"><u>Position Property</u></h2>
+            <div id="PSdiv1" class="PSdiv">Static Box</div>
+            <div id="PSdiv2" class="PSdiv">Relative Box</div>
+            <div id="PSdiv3" class="PSdiv">Absolute Box</div>
+            <div id="PSdiv4" class="PSdiv">Fixed Box</div>
+        </div>
+        <div id="div4" class="div">
+            <h2 id="h2fourth"><u>Z Index</u></h2>
+            <div id="Zdiv1" class="Zdiv">Box 1</div>
+            <div id="Zdiv2" class="Zdiv">Box 2</div>
+        </div>
+    </main>
+    <footer>
+        <br><hr>
+        Sardar Sayyam Ijaz
+        <br>
+        B22F0583CS123
+        <br>
+        BS Computer Science F-22 (Blue)
+    </footer>
+    </body>
+</html>
+
+
+
