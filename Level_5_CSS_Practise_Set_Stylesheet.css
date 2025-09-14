@@ -1,0 +1,62 @@
+/*
+Practise Set:
+Create a webpage with header, Footer and a Content Area.
+ Header: Create a Nav Bar with links.
+Main: 
+->Create a div with Width and Height, background green and border radius 50% 
+->Crate three divs with container height and width 100px. Display Inline Block.
+->Set the correct position property for the single div element to ensure it remains at the right side of the page and does not shift when scrolling.
+->Use z index to place the div on the top of another div.
+->Footer: Add text in Footer. 
+*/
+nav a{
+    text-decoration: none;
+    margin:10px;
+    display:inline;
+}
+header{
+    background-color: palegreen;
+}
+#divmain{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border:solid;
+    border-radius: 50%;
+}
+.div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+}
+#div1{
+    background-color: rgb(245, 183, 183);
+    color:rgb(255, 0, 0);
+    position:fixed;
+    right:0px;
+}
+#div2{
+    background-color: rgb(217, 255, 3);
+    color:rgb(255, 0, 0);
+    position:absolute;
+    left:300px;
+    top:84px;
+}
+#div3{
+    background-color: rgb(109, 253, 26);
+    color:rgb(255, 0, 0);
+    position:absolute;
+    bottom:80px;
+    top:130px;
+    left:270px;
+}
+h2{
+    font-size:30px;
+    text-decoration: underline;
+}
+p{
+    background-color: rgb(183, 241, 222);
+    margin:0px;
+}
+
+
