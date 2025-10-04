@@ -1,0 +1,140 @@
+/*All the CSS styling of Myntra Project*/
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    height:60px; 
+    background-color:#ffffff;
+    display: flex;
+    justify-content:space-between;
+    padding-right: 10px;
+    align-items:center ;
+    text-decoration: none;
+    border-bottom: #e7ebed 5px solid;
+}
+.myntra_home img{
+    height:53px;
+} 
+.Logo_Cotainer{
+    margin-left: 4%;
+}
+.nav_bar nav{
+    display: flex;
+    justify-content: space-evenly;
+    min-width:515px; 
+}
+.nav_bar a{
+    font-size: 14px;
+    font-weight:700;
+    color: #282c3f;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:20px 0 20px 0;
+    border-bottom:5px solid #e7ebed;
+}
+.nav_bar a:hover{
+    border-bottom:5px solid #f54e77;
+}
+.nav_bar a sup{
+    color:#ff3f6c;
+    font-size: 10px;
+}
+.search_bar{
+   min-width: 200px;
+   width: 30%;
+   display: flex;
+}
+.search_input{
+    color:#696e79;
+    background: #f5f5f6;
+    flex-grow:1;
+    text-align:start;
+    height:35px;
+    box-sizing: content-box;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+.search_icon{ 
+    height:35px;
+    padding: 5px;
+    color:#747680;
+    background: #f5f5f6;
+    font-weight: 300;
+    border-radius: 5px 0 0 5px;
+}
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: center;
+    gap:10px;
+
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    cursor:pointer;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+/*Main Section CSS*/
+.banner_image_container{
+    margin:40px 0;
+}
+.banner_image{
+    width:100%;
+}
+.catagory_heading
+{
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 1.8em;
+    max-height: 5em;
+    font-weight: 700;
+    margin: 50px 0 10px 30px;
+}
+.catogary_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.c_item
+{
+    width: 240px;
+}
+.footer-container
+{
+    padding-top: 30px 0 40px 0;
+    background-color: #e7ebed;
+    display: flex;
+    justify-content:space-evenly;
+}
+.footer_column
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer_column a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: #585a63;
+    
+}
+.h3_footer
+{
+    color: #282c3f;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.copy_right
+{
+    color:#282c3f ;
+    text-align: end;
+    padding: 15px;
+}
