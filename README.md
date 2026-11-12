@@ -1,7 +1,7 @@
 # Code-in-CSS
 This repository contains my hands-on practice work in CSS. It reflects my learning journey and shows my understanding of styling and layout fundamentals in web development.
 # Certification
-I earned a **CSS Certificate from KG Coding** by passing a skills assessment with a score of **87%**. The result validates my knowledge of CSS syntax, layout techniques, and responsive design.
+I earned a **CSS Certificate from KG Coding** by passing a skills assessment with a score of **88%**. The result validates my knowledge of CSS syntax, layout techniques, and responsive design.
 # Skills Demonstrated
 -Writing clean, organized, and maintainable CSS
 - Building flexible layouts with Flexbox and Grid
